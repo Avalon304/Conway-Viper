@@ -1,0 +1,10 @@
+<gun_01.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-0.700965 -0.366435 0.0369874</min>
+    <max>0.62 0.303849 5.58763</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/GB81_FV4004/normal/lod0/Gun_01</nodefullVisual>
+</gun_01.model>

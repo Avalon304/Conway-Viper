@@ -1,0 +1,418 @@
+<?xml version="1.0" ?>
+<root>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1.000000 0.000000 0.000000</row0>
+			<row1>0.000000 1.000000 0.000000</row1>
+			<row2>0.000000 0.000000 1.000000</row2>
+			<row3>0.000000 0.000000 0.000000</row3>
+		</transform>
+		<node>
+			<identifier>nodes_01</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>HP_gunJoint</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>-0.000971 0.903966 0.854768</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+		<node>Scene Root</node>
+		<geometry>
+			<vertices>vertices</vertices>
+			<primitive>indices</primitive>
+			<primitiveGroup>
+				0
+				<material>
+					<identifier>turret_conway</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>7</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/FV4004_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/FV4004_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/FV4004_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/FV4004_turret_01_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>0.00036299999919719994 0.9520099759101868 -0.4253090023994446</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				1
+				<material>
+					<identifier>hull_T28</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/T28_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/T28_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/T28_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/T28_hull_01_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>0.0 1.1177970170974731 0.09283000230789185</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				2
+				<material>
+					<identifier>turret_bulldog</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.1</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>	5	</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>	false	</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M41_Bulldog_Turret_02_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M41_Bulldog_Turret_02_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M41_Bulldog_Turret_02_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M41_Bulldog_Turret_02_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>-0.003610 1.397732 -0.510045</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				3
+				<material>
+					<identifier>turret_hellcat</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.18</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>	5	</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>	false	</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M18_Hellcat_turret_02_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M18_Hellcat_turret_02_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M18_Hellcat_turret_02_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/M18_Hellcat_turret_02_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>0.036903 0.567303 -0.461517</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				4
+				<material>
+					<identifier>turret_action_x</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 4.20822 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>	5	</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>	false	</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>
+						alphaReference
+						<Int>	64	</Int>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Centurion_Action_X_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Centurion_Action_X_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Centurion_Action_X_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Centurion_Action_X_turret_01_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>-0.002290 1.430028 -0.556319</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				5
+				<material>
+					<identifier>hull_cromwell_b</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Cromwell_Berlin_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Cromwell_Berlin_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Cromwell_Berlin_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB81_FV4004/Cromwell_Berlin_hull_01_AO.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>-0.022127000615000725 0.19430899620056152 -0.046925000846385956</groupOrigin>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>-1.378792 -0.020022 -2.079610</min>
+		<max>1.379519 3.355602 1.228993</max>
+	</boundingBox>
+</root>
